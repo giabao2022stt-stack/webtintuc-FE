@@ -21,13 +21,6 @@ body {font-family: sans-serif; background: #f2f2f2;}
     top: 20px; /* Khoảng cách từ đỉnh trang */
     align-self: flex-start; 
 }
-/* Tối ưu hóa cho Bố cục Full Width và Sticky Sidebar */
 
-/* Đảm bảo sidebar cố định khi cuộn */
-.sticky-sidebar {
-    position: sticky;
-    top: 20px; /* Khoảng cách từ đỉnh trang */
-    align-self: flex-start; 
-}
 
 
