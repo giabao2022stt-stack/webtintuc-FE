@@ -1,6 +1,6 @@
 // Thay thế toàn bộ nội dung file script.js bằng code này
 
-// ⚠️ THAY ĐỔI ĐỊA CHỈ NÀY BẰNG URL API ĐÃ DEPLOY CỦA BẠN (ví dụ: https://your-news-api.onrender.com)
+//  THAY ĐỔI ĐỊA CHỈ NÀY BẰNG URL API ĐÃ DEPLOY CỦA BẠN (ví dụ: https://your-news-api.onrender.com)
 const API_BASE_URL = 'https://webtintuc-project-1.onrender.com'; 
 
 const newsdetails = document.getElementById('newsdetails');
@@ -129,7 +129,7 @@ function displayNewsWithPagination(){
                     <div class="card bg-warning bg-opacity-25 border-warning border-2 p-2">
                         <small class="text-muted text-center">QUẢNG CÁO NATIVE(Minh họa học tập)</small>
                         <a href="https://tiki.vn/" target="_blank">
-                            <img src="./hinhanh/salebanner2.jpg" alt="Native Ad" class="img-fluid mt-2" style="max-height: 150px; object-fit: cover; width: 100%; border-radius: 5px;">
+                            <img src="./hinhanh/salebanerden2.jpg" alt="Native Ad" class="img-fluid mt-2" style="max-height: 150px; object-fit: cover; width: 100%; border-radius: 5px;">
                         </a>
                     </div>
                 </div>`;
