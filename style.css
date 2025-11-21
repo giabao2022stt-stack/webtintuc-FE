@@ -1,0 +1,33 @@
+body {font-family: sans-serif; background: #f2f2f2;}
+.navbar {margin-bottom:20px;}
+.carousel-inner img {height: 400px; object-fit: cover; border-radius:10px;}
+.card {margin-bottom:20px; border-radius:10px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.15);}
+.card img {height:200px; object-fit:cover;}
+.card-body h5 {font-weight:700;}
+.card-body p {font-size:0.9rem;}
+/* style.css (Thêm đoạn này vào cuối file) */
+.navbar-nav .nav-link {
+    cursor: pointer; /* Thay con trỏ thành hình bàn tay */
+    transition: color 0.3s; /* Thêm hiệu ứng chuyển màu khi di chuột */
+}
+.navbar-nav .nav-link:hover {
+    color: #ffd700 !important; /* Thay đổi màu khi di chuột */
+}
+/* Tối ưu hóa cho Bố cục 3 cột và Sidebar */
+
+/* Đảm bảo sidebar cố định khi cuộn */
+.sticky-sidebar {
+    position: sticky;
+    top: 20px; /* Khoảng cách từ đỉnh trang */
+    align-self: flex-start; 
+}
+/* Tối ưu hóa cho Bố cục Full Width và Sticky Sidebar */
+
+/* Đảm bảo sidebar cố định khi cuộn */
+.sticky-sidebar {
+    position: sticky;
+    top: 20px; /* Khoảng cách từ đỉnh trang */
+    align-self: flex-start; 
+}
+
+
